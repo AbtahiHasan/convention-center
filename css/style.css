@@ -1,0 +1,214 @@
+.navbar-brand {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+    color: #3E3E3E;
+}
+.navbar-link {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3E3E3E;
+}
+.navbar-toggler {
+    box-shadow: none !important;
+    border: 0 !important;
+}
+
+.carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+.carousel-caption h1{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+  }
+.carousel-caption p{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+.banner-btn {
+    color: rgb(63, 135, 245);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 10px 43px;
+    border: 0;
+    border-radius: 5px;
+    background: #fff;
+    text-decoration: none;
+}
+/* our album  */
+.our-album {
+    margin-top: 100px;
+}
+.album-right {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.album-right h2{
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 60px;
+    color: #0A0826;
+}
+.album-right p{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    color: #6C6C6C;
+}
+.album-btn-container {
+    margin-top: 20px;
+}
+.album-btn {
+    padding: 10px 24px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background:rgb(63, 135, 245);
+    text-decoration: none;
+}
+.album-btn img{
+    margin-left: 8px;
+}
+
+.our-package{
+    margin-top: 100px;
+}
+.our-package h2{
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 57px;
+    color: #0A0826;
+}
+.package {
+    padding: 43px 30px;
+    margin-top: 100px;
+    padding: 43px 30px;
+}
+.package-list{ 
+    list-style: none;
+    padding-left: 0;
+}
+.package-list .list{ 
+    margin-top: 8px;
+}
+.package-list h2{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46px;
+    color: #231D4F;
+}
+.package-list h3{ 
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+    color: #231D4F;
+}
+.package-list p{ 
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #848199;
+}
+.package-list .list img{ 
+    background: rgba(82, 67, 194, 0.103693);
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+}
+.choose-package {
+    margin-top: 24px;
+}
+.choose-package .choose-btn{
+    background: #f496d21a;
+    border-radius: 24px;
+    padding: 14px 61px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #3F87F5;
+}
+.hot-plan {
+    background: #3F87F5;
+    box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
+    border-radius: 26px; 
+    transform: translateY(-35px);
+    position: relative;
+    color: #fff;
+}
+.hot-plan .package-list .list img{
+    background: #ffffff11;
+}
+.hot-plan > h2 {
+    color: #fff;
+}
+.hot-plan .choose-btn {
+    background: #fff;
+}
+.hot-plan::before {
+    content: "Hot";
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    height: 30px;
+    width: 55px;
+    border-radius: 15px;
+    background: #FF4E4E;
+    color: #fff;
+    padding: 5px;
+    position: absolute;
+    top: -15px;
+    right: 20px;
+}
+/* happy clients  */
+.happy-clients {
+    margin-top: 100px;
+}
+.happy-clients .row {
+    gap: 10px;
+}
+.happy-clients .row > div{
+    max-width: 100%;
+    margin: auto;
+}
+.happy-clients .row > div .card-body{
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.05), -5px -5px 10px rgba(0,0,0,0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    width: 100%;
+    margin: auto;
+}
+.happy-clients .row > div .card-body > p{
+    padding: 20px 40px;
+    text-align: center;
+}
+.frequently-asked-questions {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.accordion-button:focus {
+    border: 0;
+    box-shadow: none;
+}
+.accordion-button:not(.collapsed) {
+    color: #0A0826;
+    background-color: #fff;
+    box-shadow: none;
+  }
