@@ -57,7 +57,7 @@
     justify-content: space-between;
     gap: 10px;
     white-space: nowrap;
-    max-width: 280px;
+    min-width: 280px;
     background: #fff;
     padding: 10px 20px;
     border-left: 5px solid #3F87F5;
